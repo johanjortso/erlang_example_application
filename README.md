@@ -14,8 +14,6 @@ Eunit:
 
 `Module:test` (internal module tests) or `eunit:test(Module)` (internal and external module tests).
 
-## Progression
-
 1. Library module
 2. Internal eunit tests for module
 3. Library module with external eunit tests
