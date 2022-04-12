@@ -5,6 +5,8 @@
 -include_lib("eunit/include/eunit.hrl").
 
 %% Public API
+-spec can_month_be_february(NumberOfDaysInMonth :: integer()) ->
+    'false' | 'true_every_year' | 'true_on_leap_years' | 'unlikely_but_happened_once'.
 can_month_be_february(NumberOfDaysInMonth) when
     NumberOfDaysInMonth >= 1,
     NumberOfDaysInMonth =< 28

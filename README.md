@@ -14,6 +14,21 @@ Eunit:
 
 `Module:test` (internal module tests) or `eunit:test(Module)` (internal and external module tests).
 
+Eunit:
+
+`c(Module:test).` (internal module tests) or `eunit:test(Module)` (internal and external module tests)
+
+## Progression
+
 1. Library module
 2. Internal eunit tests for module
 3. Library module with external eunit tests
+4. ???
+5. Typer/Dialyzer
+6. Example server
+7. Common test
+8. Edoc
+9. OTP Application: directory structure, app, supervisor
+10. Dynamic child worker?
+11. Rebar
+12. External dependencies through rebar
