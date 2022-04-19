@@ -18,3 +18,4 @@ Eunit:
 
 1. Library module
 2. Internal eunit tests for module
+3. Library module with external eunit tests
